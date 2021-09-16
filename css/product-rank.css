@@ -1,0 +1,65 @@
+.rank::after {
+	z-index: 1;
+	content: "";
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 50%;
+	bottom: -14px;
+	background: #fff;
+	border: 1px solid var(--border-color);
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.rank::before {
+	z-index: 2;
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 50%;
+	bottom: -8px;
+	font-size: 10px;
+	text-align: center;
+	background: var(--border-color);
+	color: #fff;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.rank.rank-1 {
+	border-bottom-color: #d9b823;
+}
+.rank.rank-2 {
+	border-bottom-color: #23bbd9;
+}
+.rank.rank-3 {
+	border-bottom-color: #a8d923;
+}
+
+.rank.rank-1::before {
+	content: "1";
+	background: #d9b823;
+}
+.rank.rank-1::after {
+	border-color: #d9b823;
+}
+.rank.rank-2::before {
+	content: "2";
+	background: #23bbd9;
+}
+.rank.rank-2::after {
+	border-color: #23bbd9;
+}
+.rank.rank-3::before {
+	content: "3";
+	background: #a8d923;
+}
+.rank.rank-3::after {
+	border-color: #a8d923; 
+}

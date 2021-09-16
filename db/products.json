@@ -1,0 +1,136 @@
+{
+	"a01": {
+		"name": "Razer Viper Ultimate Wireless Gaming Mouse Black",
+		"price": 84.99,
+		"availableStock": 20,
+		"soldStock": 10,
+		"image": {"vertical": "img/product/hyperx-headset.jpg"},
+		"date": "",
+		"rank": 2,
+		"details": [
+			{"brand": "Razer"},
+			{"color": "Classic Black"},
+			{"movement detection technology": "Optical"},
+			{"serie": "Viper Ultimate"},
+			{"number of buttons": "8"}
+		],
+		"description": {
+			"ul": [
+				"25 percentage Quicker Than Competing Wireless Mice: Razer HyperSpeed wireless technology brings together extreme low-latency and interference reduction for true wireless freedom",
+				"The Lightest, Zero-Compromise Wireless Esports Gaming Mouse at 74g: The Razer Viper Ultimate includes a 20K DPI optical sensor befitting the most serious gamers without the need for drilled holes"
+			]
+		}
+	},
+	"a02": {
+		"name": "HyperX Cloud Flight Wireless gaming headset with headband",
+		"price": 27.29,
+		"availableStock": 15,
+		"soldStock": 32,
+		"image": {"vertical": "img/product/razer-mouse.jpg"},
+		"date": "",
+		"rank": 1,
+		"details": [
+			{"brand": "HyperX"},
+			{"color": "Black"},
+			{"Connectivity Technology": "Wireless"},
+			{"serie": "Cloud Flight"},
+			{"Form Factor": "Over Ear"}
+		],
+		"description": {
+			"ul": [
+				"Gaming grade 2.4GHz wireless connection, with up to 30 hours of battery life",
+				"Signature HyperX comfort and immersive in game audio<br>Durable, adjustable steel slider",
+				"PC, PS4, and PS4 Pro ready",
+				"90° rotating ear cups with LED lighting effects",
+				"Intuitive on board audio and mic controls",
+				"Detachable noise cancellation microphone: Microphone engineered to function only when in wireless mode and only on PC and PS4"
+			]
+		}
+	},
+	"a03": {
+		"name": "NPET K10 Gaming Keyboard USB Wired Floating Keyboard, Quiet Ergonomic Water-Resistant Mechanical Feeling Keyboard, Ultra-Slim Rainbow LED Backlit Keyboard for Desktop, Computer, PC",
+		"price": 29.99,
+		"availableStock": 10,
+		"soldStock": 16,
+		"image": {"horizontal": "img/product/npet-keyboard.jpg"},
+		"date": "",
+		"rank": 3,
+		"details": [
+			{"brand": "NPET"},
+			{"color": "Black"},
+			{"Connectivity Technology": "Wired"},
+			{"Model Name": "FBA_HY-ECCAK"},
+			{"number of buttons": "104"},
+			{"Special Feature": "Colorful LED Backlit, Wired gaming keyboard"},
+			{"Product Dimensions": "17.32 x 5.51 x 0.98 inches; 1.32 Pounds"}
+		],		
+		"description": {
+			"p": "Professional Gaming Keyboard. UV coated keycaps and injection laser carving ABS keycaps design, the letter of characters never fade. Anti-sweat, prevents keycap damage, enhanced durability, and tactile feedback. Thick and firm stainless steel base plate, long service life, and never deforms. Metal and ABS construction make it more solid and reliable. NPET K10 gaming keyboard is more durable than the plastic keyboard, your best keyboard choice"
+		}
+	},
+	"a04": {
+		"name": "Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor, Black",
+		"price": 220.99,
+		"availableStock": 19,
+		"soldStock": 7,
+		"image": {"horizontal": "img/product/acer-monitor.jpg"},
+		"date": "",
+		"rank": 5,
+		"details": [
+			{"brand": "Acer"},
+			{"Refresh Rate": "60 Hz"},
+			{"Display Size": "23.8 inches LCD"},
+			{"Special Feature": "Frameless"}
+		],
+		"description": {
+			"ul": [
+				"23.8'' Full HD IPS widescreen with 1920 x 1080 resolution",
+				"Response time: 4ms, refresh rate: 60 hertz, pixel pitch: 0.2745 millimeter. 178 degree wide viewing angle, display colors: 16.7 million",
+				"The zero frame design provides maximum visibility of the screen from edge to edge",
+				"Signal inputs: 1 x HDMI, 1 x DVI (withHDCP) & 1 x VGA. Does not support HDCP 2.2, the version this monitor supports is HDCP 1.4",
+				"No picture visible using the OSD menu, adjust brightness and contrast to maximum or reset to their default settings. Brightness is 250 nit. Operating power consumption: 25 watts"
+			]
+		}
+	},
+	"a05": {
+		"name": "Logitech BRIO Ultra HD Webcam for Video Conferencing, Recording, and Streaming - Black",
+		"price": 42.29,
+		"availableStock": 43,
+		"soldStock": 25,
+		"image": {"vertical": "img/product/logitech-webcam.jpg"},
+		"date": "",
+		"rank": 2,
+		"details": [
+			{"brand": "Logitech"},
+			{"Series": "Logitech BRIO"},
+			{"Video Capture Resolution": "4K"},
+			{"Connectivity Technology": "USB"},
+			{"Optical Zoom": "100 x"}
+		],
+		"description": {
+			"ul": [
+				"Spectacular video quality: A premium glass lens, 4k image sensor, high dynamic range (Hdr), and autofocus deliver beautiful, true to life video",
+				"Look great in any light: Right light 3 automatically adjusts exposure and contrast to compensate for glare and backlighting. Supports multiple connection types, including USB 2.0 type a and USB 3.0 type a and C connections"
+			]
+		}
+	},
+	"a06": {
+		"name": "ontZ Angle 3 Bluetooth Portable Speaker",
+		"price": 18.68,
+		"availableStock": 18,
+		"soldStock": 5,
+		"image": {"horizontal": "img/product/ontz-speaker.jpg"},
+		"date": "",
+		"rank": 5,
+		"details": [
+			{"brand": "Cambridge Soundworks"},
+			{"Model Name": "OontZ Angle 3 Bluetooth Speaker Black"},
+			{"Speaker Type": "Outdoor"},
+			{"Connectivity Technology": "Wireless"},
+			{"Special Feature": "Portable Speaker, Bluetooth Speaker"}
+		],
+		"description": {
+			"p": "HIGHER QUALITY CRYSTAL CLEAR STEREO SOUND - The OontZ Angle 3 is Designed and Engineered by Cambridge Sound Works in the USA for greater clarity sound, accurate mids and clear highs from dual precision acoustic stereo drivers; the bass output is enhanced by our proprietary passive bass radiator; unique triangular design and downward facing bass radiator further enhance the sound quality; the Higher Quality Crystal Clear Sound & Features distance it from the competition."
+		}
+	}
+}

@@ -1,0 +1,18 @@
+fecha en formato normal
+
+	sentencia: new Date(año, mes - 1, dia, hora, minuto, segundo) (todo en integer)
+	ejemplo: new Date(2021, 06, 28, 10, 37, 0)
+
+	sentencia: new Date(timestamp)
+	ejemplo: new Date(1627483020000)
+
+-
+
+fecha en formato timestamp
+
+	sentencia: new Date(año, mes - 1, dia, hora, minuto, segundo).getTime()
+	ejemplo: new Date(2021, 06, 28, 10, 37, 0).getTime()
+
+-
+
+la descripción es en formato html

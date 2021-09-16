@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="author" content="Alirio Freytez"/>
+	<meta name="copyright" content="Alirio Freytez"/>
+	<!-- Style Resources -->
+	<link rel="stylesheet" href="css/general.css"/>
+	<link rel="stylesheet" href="css/product-rank.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<!-- Script Resources -->
+	<script src="https://kit.fontawesome.com/631ff6d478.js" crossorigin="anonymous"></script>
+	<script src="js/index.js" type="module"></script>
+	<title>alifreytez | Online Shop</title>
+</head>
+<body>
+	<header>
+		<div class="general-margin">
+			<h1><a href="index.html">alifreytez</a></h1>
+			<div id="search-wrapper" class="search">
+				<form id="search">
+					<input type="text" id="search-product" name="product">
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<button id="hide-search" class="hide-search" type="submit"><i class="fas fa-angle-up"></i></button>
+				<div id="matches-menu" class="matches-wrapper">
+					<ul></ul>
+				</div>
+			</div>
+			<div class="h-options">
+				<button id="shopping-cart-btn" class="shopping-cart-btn" type="button">
+					<i class="fas fa-shopping-cart"></i>
+				</button>
+				<button id="show-search" class="show-search" type="button"><i class="fas fa-search"></i></button>
+				<button id="menu-btn" class="menu-btn" type="button"><i class="fas fa-ellipsis-v"></i></button>
+			</div>
+		</div>
+		<div id="shopping-cart-menu" class="shopping-cart-menu">
+			<ul></ul>
+			<div class="s-c-buy-btn">
+				<a href="buy.html" id="shopping-cart-buy-btn" class="product-buy-btn">Let's buy</a>
+			</div>
+		</div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="banner" class="banner">
+			<div class="general-margin">
+				<div id="banner-slider-wrap" data-orientation="front" class="one slider-wrap">
+					<div data-sliderItem="0" class="slider-item current">
+						<div class="slider-item-in">
+							<p class="b-primary">New e-shop</p>
+							<p class="b-secondary">Created completely from scratch for partial evaluation.</p>
+						</div>
+					</div>
+					<div data-sliderItem="1" class="slider-item">
+						<div class="slider-item-in">
+							<p class="b-primary">You can pay with points</p>
+							<p class="b-secondary">Dollars and points in the matter (programación I) are accepted</p>
+						</div>
+					</div>
+					<div data-sliderItem="2" class="slider-item">
+						<div class="slider-item-in">
+							<p class="b-primary">Buying is too easy here</p>
+							<p class="b-secondary">Make your purchases through Whatsapp</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="recently-added" class="recently-added">
+			<div class="general-margin">
+				<hgroup>
+					<h2>Recently added</h2>
+					<h3>Newly posted products</h3>
+				</hgroup>
+				<div class="product-wrapper">
+				</div>
+			</div>
+		</section>
+		<section id="best-seller" class="best-seller">
+			<div class="general-margin">
+				<hgroup>
+					<h2>Best seller</h2>
+					<h3>Most purchased products</h3>
+				</hgroup>
+				<div class="product-wrapper">
+				</div>
+			</div>
+		</section>
+		<section id="testimonial" class="testimonial">
+			<div class="general-margin">
+				<hgroup>
+					<h2>What they say</h2>
+					<h3>Satisfied people</h3>
+				</hgroup>
+				<div id="testimonial-slider-wrap" data-orientation="front" class="slider-wrap">
+					<div data-sliderItem="0" class="slider-item current">
+						<div class="slider-item-in">
+							<div class="t-photo">
+								<img src="img/testimonial/t21.jpg" alt="person name photo testimonial">
+							</div>
+							<div class="t-about">
+								<p class="name">Carmelia Lariz</p>
+							</div>
+							<p class="comment">The website is better than I expected and the store is phenomenal. You can see the effort put in by the manager.</p>
+						</div>
+					</div>
+					<div data-sliderItem="1" class="slider-item">
+						<div class="slider-item-in">
+							<div class="t-photo">
+								<img src="img/testimonial/t1.jpg" alt="person name photo testimonial">
+							</div>
+							<div class="t-about">
+								<p class="name">Palpi Tanolas</p>
+							</div>
+							<p class="comment">I ordered everything I needed, confirmed the purchase and scheduled the shipment with the seller. I only had to wait one day to receive my belongings. Wonderful.</p>
+						</div>
+					</div>
+					<div data-sliderItem="2" class="slider-item">
+						<div class="slider-item-in">
+							<div class="t-photo">
+								<img src="img/testimonial/t24.jpg" alt="person name photo testimonial">
+							</div>
+							<div class="t-about">
+								<p class="name">Siri Pplea</p>
+							</div>
+							<p class="comment">I am happy with my purchase. It has never been so easy to shop online before. Plus, the website looks amazing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="sep"></div>
+		<div class="general-margin">
+			<p class="copy">Copyright &copy; <span>Alirio</span></p>
+			<p class="dev">Developed by <a href="#">Alirio</a></p>
+		</div>
+	</footer>
+</body>
+</html>

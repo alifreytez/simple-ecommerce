@@ -1,0 +1,87 @@
+<template id="shopping-cart-menu-element">
+	<li>
+		<p><span class="quantity"></span><span class="name"></span></p>
+		<div data-productId="" class="options">
+			<button class="remove-product"><i class="fas fa-trash-alt"></i></button>
+		</div>
+	</li>
+</template>
+<template id="product-element">
+	<div class="wrapper general-margin">
+		<div class="image">
+			<img src="" alt="">
+		</div>
+		<div class="info">
+			<div class="short">
+				<p class="stock-status"><span class="available-stock"></span><span class="sold-stock"></span></p>
+				<h2></h2>
+				<p class="price"></p>
+			</div>
+			<div class="details">
+				<h3>Details</h3>
+				<ul></ul>
+			</div>
+			<div class="desc">
+				<h3>Description</h3>
+				<div id="description" class="description"></div>
+			</div>
+			<div data-productId="" class="options">
+				<form id="buy-form">
+					<div class="quantity">
+						<label for="quatity">Quantity:</label>
+						<input type="text" id="quantiy" name="quantity" value="1" autocomplete="off">
+					</div>
+					<button class="product-buy-btn" type="submit">Comprar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</template>
+<template id="product-detail-element">
+	<li><span class="title"></span><span class="text"></span></li>
+</template>
+<template id="buy-item-element">
+	<li class="list-item">
+		<div class="p-image">
+			<img src="img/product/bike.jpg">
+		</div>
+		<div class="desc-wrapper">
+			<div class="desc">
+				<h5 class="p-name"></h5>
+				<p class="p-price"></p>
+			</div>
+			<div data-productId="" class="options">
+				<div>
+					<label>Quantity</label>
+					<input type="text" class="quantity" autocomplete="off">
+				</div>
+				<button type="button" class="remove-from-cart" title="Remove from cart"><i class="fas fa-trash-alt"></i></button>
+			</div>
+		</div>
+	</li>
+</template>
+<template id="product-item-element">
+	<article class="product-item">
+		<div class="p-image">
+			<img src="" alt="">
+		</div>
+		<div data-productId="" class="p-desc">
+			<div>
+				<h5>Product Name</h5>
+				<p>$00.00</p>
+			</div>
+			<div class="p-options">
+				<a href="" class="details" title="Details" target="_blank"><i class="fas fa-info"></i></a>
+				<button class="add-to-cart" type="button" title="Add to shopping cart">
+					<i class="fas fa-cart-plus"></i>
+				</button>
+				<button class="buy pointed" type="button" title="Buy">
+					<i class="far fa-credit-card"></i>
+				</button>
+			</div>
+		</div>
+	</article>
+</template>
+<template id="match-result-element">
+	<li><a href=""></a></li>
+</template>

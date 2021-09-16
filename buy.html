@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="author" content="Alirio Freytez"/>
+	<meta name="copyright" content="Alirio Freytez"/>
+	<!-- Style Resources -->
+	<link rel="stylesheet" href="css/general.css"/>
+	<link rel="stylesheet" href="css/product-rank.css"/>
+	<link rel="stylesheet" href="css/buy.css"/>
+	<!-- Script Resources -->
+	<script src="https://kit.fontawesome.com/631ff6d478.js" crossorigin="anonymous"></script>
+	<script src="js/buy.js" type="module"></script>
+	<title>alifreytez | Buy shopping cart</title>
+</head>
+<body>
+	<header>
+		<div class="general-margin">
+			<h1><a href="index.html">alifreytez</a></h1>
+			<div id="search-wrapper" class="search">
+				<form id="search">
+					<input type="text" id="search-product" name="product">
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<button id="hide-search" class="hide-search" type="submit"><i class="fas fa-angle-up"></i></button>
+				<div id="matches-menu" class="matches-wrapper">
+					<ul>
+						<li><a href="product.html?p=1">Product Name 1</a></li>
+						<li><a href="product.html?p=2">Product Name 2</a></li>
+						<li><a href="product.html?p=3">Product Name 3</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="h-options">
+				<button id="shopping-cart-btn" class="shopping-cart-btn" type="button">
+					<i class="fas fa-shopping-cart"></i>
+				</button>
+				<button id="show-search" class="show-search" type="button"><i class="fas fa-search"></i></button>
+				<button id="menu-btn" class="menu-btn" type="button"><i class="fas fa-ellipsis-v"></i></button>
+			</div>
+		</div>
+		<div id="shopping-cart-menu" class="shopping-cart-menu">
+			<ul>
+				<li>
+					<p>
+						<span class="quantity">231</span>
+						<span class="name">product asdas das dasdasdas asdasd asda</span>
+					</p>
+					<div class="options">
+						<button class="remove-product"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</li>
+				<li>
+					<p>
+						<span class="quantity">2</span>
+						<span class="name">product</span>
+					</p>
+					<div class="options">
+						<button class="remove-product"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</li>
+				<li>
+					<p>
+						<span class="quantity">3</span>
+						<span class="name">product</span>
+					</p>
+					<div class="options">
+						<button class="remove-product"><i class="fas fa-trash-alt"></i></button>
+					</div>
+				</li>
+			</ul>
+			<div class="s-c-buy-btn">
+				<a href="buy.html" id="shopping-cart-buy-btn" class="product-buy-btn">Let's buy</a>
+			</div>
+		</div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="wrapper-out">
+			<div class="wrapper general-margin">
+				<section class="product-list">
+					<h2>Resume</h2>
+					<ul id="product-list">
+
+					</ul>
+				</section>
+				<section class="purchase">
+					<h2>Purchase</h2>
+					<div>
+						<p><span class="total">Total</span><span id="total-amount" class="total-amount"></span></p>
+						<div class="name-form">
+							<h3>Your name <span>*</span></h3>
+							<input type="text" id="client-name" autocomplete="off">
+						</div>
+						<h3>Method</h3>
+						<ul id="sending-method" class="unavailable">
+							<li class="whatsapp"><button type="button" class="send-btn"><i class="fab fa-whatsapp"></i></button></li>
+						</ul>
+						<div id="additional-info">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ready-purchase" class="confirm-purchase">
+			<div>
+				<p>Have you already made the purchase?</p>
+				<div>
+					<button type="button"class="focus">Yes</button>
+					<button type="button">No</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="sep"></div>
+		<div class="general-margin">
+			<p class="copy">Copyright &copy; <span>Alirio</span></p>
+			<p class="dev">Developed by <a href="#">Alirio</a></p>
+		</div>
+	</footer>
+</body>
+</html>
